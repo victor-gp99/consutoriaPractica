@@ -1,0 +1,104 @@
+#welcome{
+  background-image: url("../images/fondo-bienvenido-grande.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 17%;
+}
+
+#welcome strong,h1{
+  color: white;
+}
+
+#welcome strong{
+  margin-bottom: 0px;
+
+}
+
+nav{
+  background-color: hsla(0, 0%, 0%,0.8);
+}
+
+#start_bar{
+  background-color: Tomato;
+  border-radius: 1px;
+}
+
+#about_us{
+  background-color: tomato;
+  text-align: center;
+  color: white;
+}
+
+#about_us img{
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+#about_us button{
+  margin-bottom: 10px;
+}
+
+#navbarTogglerDemo03{
+  text-align: center;
+}
+
+#contact{
+  background-color: Tomato;
+  border-color: Tomato;
+  color: white;
+  text-decoration: none;
+  font-style: oblique;
+  margin-top: 1%;
+}
+
+#send_button{
+  background-color: green;
+}
+
+#infoModal{
+  color: black;
+  text-align: left;
+
+}
+
+#back_us{
+  background-color: Tomato;
+}
+
+#our_services{
+  text-align: center;
+}
+
+#our_services img{
+  width: 200 px;
+  height: 200px;
+}
+
+#projects{
+  background-color: #595959;
+  text-align: center;
+  color: white;
+}
+
+#projects img{
+  margin-bottom: 20px;
+}
+
+#pro{
+  margin-bottom: 2%;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer p{
+  padding: 15px;
+}
+
+html{
+  background-color: black;
+}

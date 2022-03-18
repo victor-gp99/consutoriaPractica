@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Practica 6 Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <section>
+            <header>
+              <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+                  <div class="container-md">
+                      <a  href="#" class="navbar-brand" id="marca">Programación WEB</a>
+                      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        &#9776;
+                      </button>
+
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+
+                            <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active" id="start_bar">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"> Nuestros servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Portafolio</a>
+                                  </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contacto</a>
+                                </li>
+                            </ul>
+
+                      </div>
+                  </div>
+                </nav>
+
+            </header>
+
+
+            <div id="welcome" class="container-fluid">
+                <p><strong>Bievenidos a nuestro estudio</strong></p>
+                <h1 class="display-5">ENCANTADOS DE CONOCERTE</h1>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="contact">
+                  Ponte en contacto
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contactanos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <label for="nombre" class="form-label">Nombre Completo</label>
+                          <input type="text" class="form-control" placeholder="Walter White" id="nombre">
+                          <label for="correo" class="form-label">Correo Electronico</label>
+                          <input type="email" class="form-control" placeholder="W.W@hotmail.com" id="correo">
+                          <label for="comentarios" class="form-label">Comentarios</label>
+                          <textarea class="form-control" rows="3" id="comentarios"></textarea>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="send_button">Enviar</button>
+                        <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container-fluid" id="back_us">
+              <div id="about_us">
+                    <img src="images/nosotros.svg" alt="Nosotros">
+                    <h2 >¿QUIENES SOMOS?</h2>
+                    <p>Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con supervisión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación, diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseñadas por nosotros y avaladas por nuestros años de experiencia.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#infoModal">
+                      MAS INFORMACIÓN
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="infoModalLabel">Quienes Somos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium minus nulla nostrum sint nemo dolores esse provident. Natus facere doloribus, delectus accusantium maiores corrupti dolores dignissimos repellendus sapiente odio eaque?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+         </section>
+
+         <section id="our_services">
+
+          <div class="container-xsm">
+              <h2>NUESTROS SERVICIOS</h2>
+
+             <div class="row">
+                 <div class="col">
+                     <img src="images/Portafolio.png" alt="Portafolio">
+                     <h3>Aplicaciones para la nube</h3>
+                     <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>
+                 </div>
+
+                 <div class="col">
+                     <img src="images/Altavoz.png" alt="Altavoz">
+                     <h3>Fábrica de  software</h3>
+                     <p>Nuestros servicio de mejora correctiva y evolutiva para sus aplicaciones.</p>
+                 </div>
+
+                 <div class="col">
+                     <img src="images/Check.png" alt="Check">
+                     <h3>Diseño personalizado</h3>
+                     <p>Customiza hasta el último píxel de tu App. Infinitas Posibilidades.</p>
+                 </div>
+
+             </div>
+
+          </div>
+
+      </section>
+
+         <section id="projects">
+          <div class="container-sm" id="contenidoprojects"> <br>
+              <h2 id="pro">ÚLTIMOS PROYECTOS</h2>
+              <div class="row">
+                      <div class="col-md-4 col-sm-12">
+                          <a href="#"> <img src="images/proyecto1.svg" alt="Proyecto 1"></a>
+                      </div>
+                      <div class="col-md-4 col-sm-12">
+                            <a href="#">   <img src="images/proyecto2.svg" alt="Proyecto 2"> </a>
+                      </div>
+                      <div class="col-md-4 col-sm-12">
+                             <a href="#">  <img src="images/proyecto3.svg" alt="Proyecto 3"> </a>
+                      </div>
+                      <div class="w-100"> </div>
+                      <div class="col-md-4 col-sm-12">
+                             <a href="#">  <img src="images/proyecto4.svg" alt="Proyecto 4"> </a>
+                      </div>
+                      <div class="col-md-4 col-sm-12">
+                              <a href="#"> <img src="images/proyecto5.svg" alt="Proyecto 5"> </a>
+                      </div>
+                      <div class="col-md-4 col-sm-12">
+                              <a href="#"> <img src="images/proyecto6.svg" alt="Proyecto 6"> </a>
+                      </div>
+
+              </div>
+          </div>
+      </section>
+
+        <footer>
+            <div>
+                <p>Practica 6.- Bootstrap</p>
+            </div>
+        </footer>
+
+  </body>
+
+</html>
